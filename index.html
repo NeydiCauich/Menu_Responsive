@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500&display=swap" rel="stylesheet">
+  <title>Menu resposive</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <figure>
+     <img src="imagenes/logo_arriba.png" alt="">
+      </figure>
+      <i id="iconomenu" class="fa-solid fa-bars"></i>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Nuestros productos</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="foto_slide">
+    <div class="informacion ancho">
+  <h1>Cultivamos verduras orgánicas y las traemos a las traemos a tu mesa</h1>
+    </div>
+  </section>
+
+  <section class="titulos ancho">
+      <h2>Nuestros Servicios</h2>
+      <h3>Lo que ofrecemos</h3>
+<div class="cont_adentro">
+  <article>
+    <figure class="iconos">
+      <img src="imagenes/icono1.png" alt="">
+       </figure>
+    <h4>Ganado Vacuno</h4>
+    <p>Carne de res producida sin ingeniería genética, uso de radiación o lodos de depuradora.</p>
+  </article>
+  <article>
+    <figure class="iconos">
+      <img src="imagenes/icono2.png" alt="">
+       </figure>
+    <h4>Productos Lácteos</h4>
+    <p>Los productos lácteos como la leche, el queso y el yogur contienen los nutrientes que su cuerpo necesita.</p>
+  </article>
+  <article>
+    <figure class="iconos">
+    <img src="imagenes/icono3.png" alt="">
+  </figure>
+    <h4>Frutas de la Huerta</h4>
+    <p>Cubre todo lo que se necesita saber para cultivar y comercializar con éxitos sus propias frutas orgánicas de huerta.</p>
+  </article>
+</div>
+  </section>
+  <footer>
+    <figure>
+      <img src="imagenes/logo_abajo.png" alt="">
+    </figure>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+  </script>
+  <script>
+    $( "#iconomenu" ).click(function() {
+      $( ".menu" ).slideToggle();
+        // Animation complete.
+      });
+  </script>
+</body>
+</html>
